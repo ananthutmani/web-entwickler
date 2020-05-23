@@ -23,7 +23,7 @@
 
 #heading h1 {
     font-family: Palanquin Dark;
-    font-size: 10vh;
+    font-size: 12vh;
 }
 
 h2 {
@@ -37,20 +37,30 @@ h2 {
     overflow: hidden;
 }
 
+.line2 {
+    margin: 0;
+    overflow: hidden;
+}
+
 #heading p {
     font-family: Quicksand;
     font-size: 5vh;
     font-weight: 300;
 }
 
-#sect1 {
+#dos {
     background-color: #0099ff;
     color: white;
 }
 
+#donts {
+    background-color: white;
+    color: black;
+}
+
 .written {
     font-family: Quicksand;
-    font-size: 3vh;
+    font-size: 4vh;
 }
 
 .points h3 {
@@ -58,6 +68,19 @@ h2 {
 }
 
 .points {
+    font-family: Quicksand;
+    font-size: 2vh;
+    color: black;
+    background-color: white;
+    border-radius: 2vh;
+    margin: 1vh;
+}
+
+.points2 h3 {
+    font-size: 3.5vh;
+}
+
+.points2 {
     font-family: Quicksand;
     font-size: 2vh;
     color: black;

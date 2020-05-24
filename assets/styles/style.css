@@ -1,3 +1,7 @@
+body {
+    background-color: white;
+}
+
 #loader {
     height: 100%;
     width: 100%;
@@ -92,4 +96,9 @@ h2 {
 .each:hover {
     animation: pulse;
     animation-duration: 1s;
+}
+
+#part3 {
+    background-color: #00cba9;
+    color: white;
 }
